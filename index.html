@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luna Vogue Boutique — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- header: same as shared header block -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Luna Vogue Boutique logo">
+        <span class="brand">Luna Vogue Boutique</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / intro -->
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Discover Your Signature Style</h1>
+          <p>Curated collections of contemporary fashion — from everyday essentials to statement pieces.</p>
+          <a class="btn" href="collection.html">Shop Collection</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Model wearing Luna Vogue clothing">
+        </div>
+      </div>
+    </section>
+
+    <!-- Best sellers -->
+    <section class="best-sellers container">
+      <h2>Best Sellers</h2>
+      <div class="grid grid-3">
+        <article class="product-card">
+          <img src="images/product1.jpg" alt="Floral summer dress">
+          <h3>Florence Floral Dress</h3>
+          <p>Lightweight midi dress — perfect for summer days.</p>
+          <p class="price">LKR 5,490</p>
+        </article>
+
+        <article class="product-card">
+          <img src="images/product2.jpg" alt="Classic white tee">
+          <h3>Essential White Tee</h3>
+          <p>100% cotton—an everyday essential.</p>
+          <p class="price">LKR 1,990</p>
+        </article>
+
+        <article class="product-card">
+          <img src="images/product3.jpg" alt="Tailored blazer">
+          <h3>Tailored Blazer</h3>
+          <p>Structure meets comfort for a polished look.</p>
+          <p class="price">LKR 8,990</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer: same as shared footer block -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Luna Vogue Boutique</h4>
+        <p>Trendy fashion for every mood. Visit our store or contact us for appointments.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Email: hello@lunavogue.com</p>
+        <p>Phone: +94 77 123 4567</p>
+        <p>Address: 123 Fashion St, Colombo, Sri Lanka</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Luna Vogue Boutique. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

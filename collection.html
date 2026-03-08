@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collection — Luna Vogue Boutique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Luna Vogue Boutique logo">
+        <span class="brand">Luna Vogue Boutique</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container collection-page">
+    <h1>Our Collection</h1>
+
+    <!-- Gallery images -->
+    <section>
+      <h2>Gallery</h2>
+      <div class="grid grid-4 gallery">
+        <img src="images/product1.jpg" alt="Product 1">
+        <img src="images/product2.jpg" alt="Product 2">
+        <img src="images/product3.jpg" alt="Product 3">
+        <img src="images/product4.jpg" alt="Product 4">
+      </div>
+    </section>
+
+    <!-- Catalog organized by categories -->
+    <section>
+      <h2>Catalog</h2>
+
+      <h3>Tops</h3>
+      <table class="catalog-table">
+        <thead>
+          <tr>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Description</th>
+            <th>Price (LKR)</th>
+            <th>Available Sizes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>T001</td>
+            <td>Essential White Tee</td>
+            <td>100% cotton, crew neck</td>
+            <td>1,990</td>
+            <td>S, M, L, XL</td>
+          </tr>
+          <tr>
+            <td>T002</td>
+            <td>Silk Blouse</td>
+            <td>Lightweight, relaxed fit</td>
+            <td>3,490</td>
+            <td>S, M, L</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Dresses</h3>
+      <table class="catalog-table">
+        <thead>
+          <tr>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Description</th>
+            <th>Price (LKR)</th>
+            <th>Available Sizes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>D001</td>
+            <td>Florence Floral Dress</td>
+            <td>Midi dress, breathable fabric</td>
+            <td>5,490</td>
+            <td>S, M, L</td>
+          </tr>
+          <tr>
+            <td>D002</td>
+            <td>Evening Gown</td>
+            <td>Elegant silhouette, fully lined</td>
+            <td>12,990</td>
+            <td>M, L</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Size Chart</h3>
+      <table class="size-chart">
+        <thead>
+          <tr><th>Size</th><th>Bust (cm)</th><th>Waist (cm)</th><th>Hips (cm)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S</td><td>82</td><td>66</td><td>90</td></tr>
+          <tr><td>M</td><td>88</td><td>72</td><td>96</td></tr>
+          <tr><td>L</td><td>94</td><td>78</td><td>102</td></tr>
+          <tr><td>XL</td><td>100</td><td>84</td><td>108</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Luna Vogue Boutique</h4>
+        <p>Trendy fashion for every mood. Visit our store or contact us for appointments.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Email: hello@lunavogue.com</p>
+        <p>Phone: +94 77 123 4567</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Luna Vogue Boutique. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

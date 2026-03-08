@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Luna Vogue Boutique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- header (same) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Luna Vogue Boutique logo">
+        <span class="brand">Luna Vogue Boutique</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container about-page">
+    <h1>About Luna Vogue Boutique</h1>
+
+    <section>
+      <h2>Our History</h2>
+      <p>Founded in 2019 in Colombo, Luna Vogue Boutique began as a small studio with a passion for handcrafted, contemporary apparel. We started with a small capsule of artisanal pieces and have grown into a carefully curated boutique that celebrates style and sustainability.</p>
+    </section>
+
+    <section>
+      <h2>Vision</h2>
+      <p>To be the go-to boutique for modern, sustainable fashion that empowers people to express themselves with confidence.</p>
+    </section>
+
+    <section>
+      <h2>Mission</h2>
+      <ul>
+        <li>Design and offer high-quality garments with a timeless aesthetic.</li>
+        <li>Practice sustainable sourcing and responsible production.</li>
+        <li>Create an inclusive shopping experience, online and in-store.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Values</h2>
+      <p>Creativity • Sustainability • Quality • Customer-centricity</p>
+    </section>
+  </main>
+
+  <!-- footer (same) -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Luna Vogue Boutique</h4>
+        <p>Trendy fashion for every mood. Visit our store or contact us for appointments.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Email: hello@lunavogue.com</p>
+        <p>Phone: +94 77 123 4567</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Luna Vogue Boutique. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
