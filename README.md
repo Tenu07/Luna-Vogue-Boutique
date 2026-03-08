@@ -1,5 +1,3 @@
----
-
 # 👗 Luna Vogue Boutique Website
 
 ## 📌 Project Overview
